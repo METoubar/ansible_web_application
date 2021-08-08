@@ -1,5 +1,6 @@
 ---
 - name: Deploy a web application
+  hosts: all
   become: true
   roles:
     - python
